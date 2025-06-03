@@ -1,3 +1,4 @@
+#Classe foco de incêndio e suas funções
 class Foco:
     def __init__(self, id, area_inicial, alpha):
         self.id = id

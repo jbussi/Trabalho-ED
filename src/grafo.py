@@ -1,3 +1,4 @@
+#Grafo com distâncias entre cada par 
 class Grafo:
     def __init__(self):
         self.arestas = {}
