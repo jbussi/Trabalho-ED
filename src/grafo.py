@@ -7,8 +7,8 @@ class Grafo:
         if no not in self.nos:
             self.nos[no] = {}
     def adicionar_aresta(self, origem, destino, tempo: float):
-        self.adjacencias[origem][destino] = tempo
-        self.adjacencias[destino][origem] = tempo 
+        self.nos[origem][destino] = tempo
+        self.nos[destino][origem] = tempo 
     
     def custo(self, origem, destino):
         return self.arestas[(origem, destino)]
