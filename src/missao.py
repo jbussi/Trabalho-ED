@@ -42,8 +42,4 @@ class Missao:
             # Atualiza local atual
             local_atual = foco_id
 
-        # Volta para o posto
-        tempo_volta = grafo.adjacencias[local_atual][self.posto_id]
-        tempo_total += tempo_volta
-
         return tempo_total
