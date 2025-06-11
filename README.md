@@ -16,4 +16,4 @@ O objetivo do projeto é determinar uma estratégia viável para extinguir todos
 
 ## 📁 Estrutura do Projeto
 
-Optamos por uma estrutura modular para facilitar a reutilização e a manutenção do código. Cada componente do sistema é representado por um módulo separado, permitindo que as funções sejam importadas diretamente no `main.py` para execução. 
+Optamos por uma estrutura modular para facilitar a reutilização e a manutenção do código. Cada componente do sistema é representado por um módulo separado, permitindo que as funções sejam importadas diretamente no `main.py` para execução. A forma como escolhemos para gravar as distâncias e relações entre nós foi por meio de grafos, e o resto do projeto segue a utiliação TAD's ensinadas durante o curso
