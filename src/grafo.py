@@ -1,4 +1,4 @@
-#Grafo com distâncias entre cada par 
+#Grafo com distâncias entre cada par de nós interligados (Dado em horas)
 class Grafo:
     def __init__(self):
         self.nos = {}

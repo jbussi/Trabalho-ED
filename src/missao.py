@@ -9,12 +9,14 @@ class Missao:
         self.capacidade = capacidade
         self.alocacoes = {}
     
+    # Aloca o foco de incêncio a certo posto
     def adicionar_alocacao(self, foco_id: str, tempo: float):
         if foco_id not in self.alocacoes:
             self.alocacoes[foco_id] = {'tempo': 0, 'recursos': 0}
         self.alocacoes[foco_id]['tempo'] += tempo
         self.alocacoes[foco_id]['capacidade'] += self.capacidade
     
+    # O posto combate o foco de incêndio alocado
     def executar(self):
         for foco_id, dados in self.alocacoes.items():
             foco: Foco = self.alocacoes[foco_id]
@@ -25,6 +27,7 @@ class Missao:
                 recursos = dados['recursos']
             )
     
+    #Contabiliza o tempo total gasto, para não exceder as 12 horas disponíveis por dia
     def tempo_total(self, grafo: Grafo):
         tempo_total = 0
         local_atual = self.posto_id
@@ -41,9 +44,5 @@ class Missao:
 
             # Atualiza local atual
             local_atual = foco_id
-
-        # Volta para o posto
-        tempo_volta = grafo.adjacencias[local_atual][self.posto_id]
-        tempo_total += tempo_volta
 
         return tempo_total
