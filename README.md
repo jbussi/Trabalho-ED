@@ -21,4 +21,6 @@ Optamos por uma estrutura modular para facilitar a reutilização e a manutenç�
 ## Participantes:
 - Diego Deliberalli Reis    n° USP: 15574238
 - João Paulo Bussi          n° USP: 15495612
+- André dos Santos Porta    n° USP: 15674171
+- Patrick Neme Mesquita     n° USP: 6904833
 - 
