@@ -1,0 +1,117 @@
+
+--- Dia 1 ---
+Dia 1: Posto b6 alocado ao Foco f3 por 2.00h (dist: 2.00h).
+Dia 1: Posto b6 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 1: Posto b6 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 1: Posto b6 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 1: Posto b2 alocado ao Foco f3 por 2.00h (dist: 3.00h).
+Dia 1: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 1: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 1: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 1: Posto b6 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 1: Posto b2 alocado ao Foco f3 por 1.00h (dist: 0.00h).
+Dia 1: Posto b1 alocado ao Foco f1 por 2.00h (dist: 4.00h).
+Dia 1: Posto b1 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 1: Posto b1 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 1: Posto b1 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Foco f1 cresceu para 361.56 km^2
+Foco f2 cresceu para 101.00 km^2
+Foco f4 cresceu para 352.00 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 361.56 km^2
+Foco f2: 101.00 km^2
+Foco f3: Extinto
+Foco f4: 352.00 km^2
+
+--- Dia 2 ---
+Dia 2: Posto b6 alocado ao Foco f1 por 2.00h (dist: 1.00h).
+Dia 2: Posto b6 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b6 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b6 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b6 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b6 alocado ao Foco f1 por 1.00h (dist: 0.00h).
+Dia 2: Posto b2 alocado ao Foco f1 por 2.00h (dist: 2.00h).
+Dia 2: Posto b2 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b2 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b2 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b2 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b1 alocado ao Foco f1 por 2.00h (dist: 4.00h).
+Dia 2: Posto b1 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b1 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Dia 2: Posto b1 alocado ao Foco f1 por 2.00h (dist: 0.00h).
+Foco f2 cresceu para 102.01 km^2
+Foco f4 cresceu para 387.20 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: Extinto
+Foco f2: 102.01 km^2
+Foco f3: Extinto
+Foco f4: 387.20 km^2
+
+--- Dia 3 ---
+Dia 3: Posto b2 alocado ao Foco f2 por 2.00h (dist: 2.00h).
+Dia 3: Posto b2 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 3: Posto b2 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 3: Posto b6 alocado ao Foco f4 por 2.00h (dist: 1.00h).
+Dia 3: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 3: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 3: Posto b2 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 3: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 3: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 3: Posto b6 alocado ao Foco f4 por 1.00h (dist: 0.00h).
+Dia 3: Posto b2 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Foco f4 cresceu para 268.62 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: Extinto
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: 268.62 km^2
+
+--- Dia 4 ---
+Dia 4: Posto b6 alocado ao Foco f4 por 2.00h (dist: 1.00h).
+Dia 4: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 4: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 4: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 4: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 4: Posto b6 alocado ao Foco f4 por 1.00h (dist: 0.00h).
+Dia 4: Posto b2 alocado ao Foco f4 por 2.00h (dist: 4.00h).
+Dia 4: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 4: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 4: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Foco f4 cresceu para 14.98 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: Extinto
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: 14.98 km^2
+
+--- Dia 5 ---
+Dia 5: Posto b6 alocado ao Foco f4 por 2.00h (dist: 1.00h).
+Dia 5: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 5: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 5: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 5: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 5: Posto b2 alocado ao Foco f4 por 2.00h (dist: 4.00h).
+Dia 5: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 5: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 5: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 5: Posto b6 alocado ao Foco f4 por 1.00h (dist: 0.00h).
+
+Estado dos Focos ao final do dia:
+Foco f1: Extinto
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 6 ---
+Todos os focos foram extintos. Simulacao encerrada.
+
+--- Relatorio Final ---
+Foco f1 extinto no Dia 2.
+Foco f2 extinto no Dia 3.
+Foco f3 extinto no Dia 1.
+Foco f4 extinto no Dia 5.
+Todos os focos foram extintos em 5 dias.

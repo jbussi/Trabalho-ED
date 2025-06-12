@@ -19,7 +19,7 @@ def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_
         focos_ativos = [f for f in focos if not f.extinto]
 
         if not focos_ativos:
-            relatorio_linhas.append("Todos os focos foram extintos. Simulação encerrada.")
+            relatorio_linhas.append("Todos os focos foram extintos. Simulacao encerrada.")
             break
 
         # Resetar horas e capacidade disponíveis dos postos para o dia
@@ -114,16 +114,16 @@ def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_
                     focos_extintos_data[foco.id] = dia
                     relatorio_linhas.append(f"Foco {foco.id} extinto no Dia {dia}!")
                 else:
-                    relatorio_linhas.append(f"Foco {foco.id} cresceu para {foco.area:.2f} km²")
+                    relatorio_linhas.append(f"Foco {foco.id} cresceu para {foco.area:.2f} km^2")
 
         # Relatório diário
         relatorio_linhas.append("\nEstado dos Focos ao final do dia:")
         for foco in focos:
-            status = "Extinto" if foco.extinto else f"{foco.area:.2f} km²"
+            status = "Extinto" if foco.extinto else f"{foco.area:.2f} km^2"
             relatorio_linhas.append(f"Foco {foco.id}: {status}")
 
     # Relatório final após a simulação
-    relatorio_linhas.append("\n--- Relatório Final ---")
+    relatorio_linhas.append("\n--- Relatorio Final ---")
     todos_extintos = True
     tempo_total_simulacao = 0
 
@@ -134,12 +134,12 @@ def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_
                 tempo_total_simulacao = foco.data_extincao
         else:
             todos_extintos = False
-            relatorio_linhas.append(f"Foco {foco.id} NÃO extinto. Área restante: {foco.area:.2f} km².")
+            relatorio_linhas.append(f"Foco {foco.id} nao extinto. Area restante: {foco.area:.2f} km^2.")
     
     if todos_extintos:
         relatorio_linhas.append(f"Todos os focos foram extintos em {tempo_total_simulacao} dias.")
     else:
-        relatorio_linhas.append("Não foi possível extinguir todos os focos com os recursos disponíveis.")
+        relatorio_linhas.append("Nao foi possivel extinguir todos os focos com os recursos disponiveis.")
 
     return '\n'.join(relatorio_linhas)
 

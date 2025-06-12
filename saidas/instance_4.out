@@ -1,0 +1,972 @@
+
+--- Dia 1 ---
+Dia 1: Posto b2 alocado ao Foco f2 por 2.00h (dist: 2.00h).
+Dia 1: Posto b2 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b2 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b2 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b2 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b1 alocado ao Foco f2 por 2.00h (dist: 3.00h).
+Dia 1: Posto b1 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b1 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b1 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b1 alocado ao Foco f2 por 1.00h (dist: 0.00h).
+Dia 1: Posto b4 alocado ao Foco f2 por 2.00h (dist: 5.00h).
+Dia 1: Posto b4 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b4 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b4 alocado ao Foco f2 por 1.00h (dist: 0.00h).
+Dia 1: Posto b3 alocado ao Foco f2 por 2.00h (dist: 5.00h).
+Dia 1: Posto b3 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b3 alocado ao Foco f2 por 2.00h (dist: 0.00h).
+Dia 1: Posto b3 alocado ao Foco f2 por 1.00h (dist: 0.00h).
+Dia 1: Posto b6 alocado ao Foco f4 por 2.00h (dist: 4.00h).
+Dia 1: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 1: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 1: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Foco f1 cresceu para 239.40 km^2
+Foco f3 cresceu para 246.60 km^2
+Foco f4 cresceu para 98.40 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 239.40 km^2
+Foco f2: Extinto
+Foco f3: 246.60 km^2
+Foco f4: 98.40 km^2
+
+--- Dia 2 ---
+Dia 2: Posto b2 alocado ao Foco f4 por 2.00h (dist: 2.00h).
+Dia 2: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b2 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b6 alocado ao Foco f4 por 2.00h (dist: 4.00h).
+Dia 2: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b6 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b4 alocado ao Foco f4 por 2.00h (dist: 5.00h).
+Dia 2: Posto b4 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b4 alocado ao Foco f4 por 2.00h (dist: 0.00h).
+Dia 2: Posto b4 alocado ao Foco f4 por 1.00h (dist: 0.00h).
+Foco f1 cresceu para 318.40 km^2
+Foco f3 cresceu para 337.84 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 318.40 km^2
+Foco f2: Extinto
+Foco f3: 337.84 km^2
+Foco f4: Extinto
+
+--- Dia 3 ---
+Dia 3: Posto b2 alocado ao Foco f3 por 2.00h (dist: 2.00h).
+Dia 3: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b4 alocado ao Foco f3 por 2.00h (dist: 4.00h).
+Dia 3: Posto b4 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b4 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b4 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b6 alocado ao Foco f3 por 2.00h (dist: 5.00h).
+Dia 3: Posto b6 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b6 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 3: Posto b6 alocado ao Foco f3 por 1.00h (dist: 0.00h).
+Foco f1 cresceu para 423.47 km^2
+Foco f3 cresceu para 135.41 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 423.47 km^2
+Foco f2: Extinto
+Foco f3: 135.41 km^2
+Foco f4: Extinto
+
+--- Dia 4 ---
+Dia 4: Posto b2 alocado ao Foco f3 por 2.00h (dist: 2.00h).
+Dia 4: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b2 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b4 alocado ao Foco f3 por 2.00h (dist: 4.00h).
+Dia 4: Posto b4 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b4 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b4 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b6 alocado ao Foco f3 por 2.00h (dist: 5.00h).
+Dia 4: Posto b6 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b6 alocado ao Foco f3 por 2.00h (dist: 0.00h).
+Dia 4: Posto b6 alocado ao Foco f3 por 1.00h (dist: 0.00h).
+Foco f1 cresceu para 563.22 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 563.22 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 5 ---
+Foco f1 cresceu para 749.08 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 749.08 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 6 ---
+Foco f1 cresceu para 996.28 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 996.28 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 7 ---
+Foco f1 cresceu para 1325.06 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1325.06 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 8 ---
+Foco f1 cresceu para 1762.32 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1762.32 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 9 ---
+Foco f1 cresceu para 2343.89 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 2343.89 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 10 ---
+Foco f1 cresceu para 3117.37 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 3117.37 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 11 ---
+Foco f1 cresceu para 4146.11 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 4146.11 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 12 ---
+Foco f1 cresceu para 5514.32 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 5514.32 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 13 ---
+Foco f1 cresceu para 7334.05 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 7334.05 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 14 ---
+Foco f1 cresceu para 9754.29 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 9754.29 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 15 ---
+Foco f1 cresceu para 12973.20 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 12973.20 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 16 ---
+Foco f1 cresceu para 17254.36 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 17254.36 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 17 ---
+Foco f1 cresceu para 22948.29 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 22948.29 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 18 ---
+Foco f1 cresceu para 30521.23 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 30521.23 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 19 ---
+Foco f1 cresceu para 40593.24 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 40593.24 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 20 ---
+Foco f1 cresceu para 53989.01 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 53989.01 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 21 ---
+Foco f1 cresceu para 71805.38 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 71805.38 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 22 ---
+Foco f1 cresceu para 95501.15 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 95501.15 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 23 ---
+Foco f1 cresceu para 127016.53 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 127016.53 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 24 ---
+Foco f1 cresceu para 168931.99 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 168931.99 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 25 ---
+Foco f1 cresceu para 224679.54 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 224679.54 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 26 ---
+Foco f1 cresceu para 298823.79 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 298823.79 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 27 ---
+Foco f1 cresceu para 397435.64 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 397435.64 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 28 ---
+Foco f1 cresceu para 528589.40 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 528589.40 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 29 ---
+Foco f1 cresceu para 703023.91 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 703023.91 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 30 ---
+Foco f1 cresceu para 935021.79 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 935021.79 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 31 ---
+Foco f1 cresceu para 1243578.99 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1243578.99 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 32 ---
+Foco f1 cresceu para 1653960.05 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1653960.05 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 33 ---
+Foco f1 cresceu para 2199766.87 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 2199766.87 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 34 ---
+Foco f1 cresceu para 2925689.94 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 2925689.94 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 35 ---
+Foco f1 cresceu para 3891167.62 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 3891167.62 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 36 ---
+Foco f1 cresceu para 5175252.93 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 5175252.93 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 37 ---
+Foco f1 cresceu para 6883086.40 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 6883086.40 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 38 ---
+Foco f1 cresceu para 9154504.91 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 9154504.91 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 39 ---
+Foco f1 cresceu para 12175491.53 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 12175491.53 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 40 ---
+Foco f1 cresceu para 16193403.73 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 16193403.73 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 41 ---
+Foco f1 cresceu para 21537226.96 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 21537226.96 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 42 ---
+Foco f1 cresceu para 28644511.86 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 28644511.86 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 43 ---
+Foco f1 cresceu para 38097200.78 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 38097200.78 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 44 ---
+Foco f1 cresceu para 50669277.03 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 50669277.03 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 45 ---
+Foco f1 cresceu para 67390138.45 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 67390138.45 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 46 ---
+Foco f1 cresceu para 89628884.14 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 89628884.14 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 47 ---
+Foco f1 cresceu para 119206415.91 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 119206415.91 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 48 ---
+Foco f1 cresceu para 158544533.16 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 158544533.16 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 49 ---
+Foco f1 cresceu para 210864229.10 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 210864229.10 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 50 ---
+Foco f1 cresceu para 280449424.70 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 280449424.70 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 51 ---
+Foco f1 cresceu para 372997734.85 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 372997734.85 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 52 ---
+Foco f1 cresceu para 496086987.35 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 496086987.35 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 53 ---
+Foco f1 cresceu para 659795693.18 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 659795693.18 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 54 ---
+Foco f1 cresceu para 877528271.93 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 877528271.93 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 55 ---
+Foco f1 cresceu para 1167112601.67 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1167112601.67 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 56 ---
+Foco f1 cresceu para 1552259760.22 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1552259760.22 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 57 ---
+Foco f1 cresceu para 2064505481.09 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 2064505481.09 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 58 ---
+Foco f1 cresceu para 2745792289.85 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 2745792289.85 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 59 ---
+Foco f1 cresceu para 3651903745.49 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 3651903745.49 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 60 ---
+Foco f1 cresceu para 4857031981.51 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 4857031981.51 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 61 ---
+Foco f1 cresceu para 6459852535.40 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 6459852535.40 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 62 ---
+Foco f1 cresceu para 8591603872.09 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 8591603872.09 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 63 ---
+Foco f1 cresceu para 11426833149.88 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 11426833149.88 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 64 ---
+Foco f1 cresceu para 15197688089.34 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 15197688089.34 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 65 ---
+Foco f1 cresceu para 20212925158.82 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 20212925158.82 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 66 ---
+Foco f1 cresceu para 26883190461.23 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 26883190461.23 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 67 ---
+Foco f1 cresceu para 35754643313.43 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 35754643313.43 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 68 ---
+Foco f1 cresceu para 47553675606.87 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 47553675606.87 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 69 ---
+Foco f1 cresceu para 63246388557.13 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 63246388557.13 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 70 ---
+Foco f1 cresceu para 84117696780.98 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 84117696780.98 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 71 ---
+Foco f1 cresceu para 111876536718.71 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 111876536718.71 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 72 ---
+Foco f1 cresceu para 148795793835.88 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 148795793835.88 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 73 ---
+Foco f1 cresceu para 197898405801.72 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 197898405801.72 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 74 ---
+Foco f1 cresceu para 263204879716.29 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 263204879716.29 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 75 ---
+Foco f1 cresceu para 350062490022.67 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 350062490022.67 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 76 ---
+Foco f1 cresceu para 465583111730.15 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 465583111730.15 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 77 ---
+Foco f1 cresceu para 619225538601.10 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 619225538601.10 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 78 ---
+Foco f1 cresceu para 823569966339.46 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 823569966339.46 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 79 ---
+Foco f1 cresceu para 1095348055231.49 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1095348055231.49 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 80 ---
+Foco f1 cresceu para 1456812913457.88 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1456812913457.88 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 81 ---
+Foco f1 cresceu para 1937561174898.98 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 1937561174898.98 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 82 ---
+Foco f1 cresceu para 2576956362615.64 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 2576956362615.64 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 83 ---
+Foco f1 cresceu para 3427351962278.80 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 3427351962278.80 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 84 ---
+Foco f1 cresceu para 4558378109830.81 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 4558378109830.81 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 85 ---
+Foco f1 cresceu para 6062642886074.98 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 6062642886074.98 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 86 ---
+Foco f1 cresceu para 8063315038479.72 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 8063315038479.72 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 87 ---
+Foco f1 cresceu para 10724209001178.03 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 10724209001178.03 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 88 ---
+Foco f1 cresceu para 14263197971566.78 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 14263197971566.78 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 89 ---
+Foco f1 cresceu para 18970053302183.82 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 18970053302183.82 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 90 ---
+Foco f1 cresceu para 25230170891904.48 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 25230170891904.48 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 91 ---
+Foco f1 cresceu para 33556127286232.96 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 33556127286232.96 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 92 ---
+Foco f1 cresceu para 44629649290689.84 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 44629649290689.84 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 93 ---
+Foco f1 cresceu para 59357433556617.48 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 59357433556617.48 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 94 ---
+Foco f1 cresceu para 78945386630301.27 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 78945386630301.27 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 95 ---
+Foco f1 cresceu para 104997364218300.69 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 104997364218300.69 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 96 ---
+Foco f1 cresceu para 139646494410339.92 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 139646494410339.92 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 97 ---
+Foco f1 cresceu para 185729837565752.09 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 185729837565752.09 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 98 ---
+Foco f1 cresceu para 247020683962450.31 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 247020683962450.31 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 99 ---
+Foco f1 cresceu para 328537509670058.94 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 328537509670058.94 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Dia 100 ---
+Foco f1 cresceu para 436954887861178.44 km^2
+
+Estado dos Focos ao final do dia:
+Foco f1: 436954887861178.44 km^2
+Foco f2: Extinto
+Foco f3: Extinto
+Foco f4: Extinto
+
+--- Relatorio Final ---
+Foco f1 nao extinto. Area restante: 436954887861178.44 km^2.
+Foco f2 extinto no Dia 1.
+Foco f3 extinto no Dia 4.
+Foco f4 extinto no Dia 2.
+Nao foi possivel extinguir todos os focos com os recursos disponiveis.

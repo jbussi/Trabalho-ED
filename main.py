@@ -21,18 +21,24 @@ def ler_dados_entrada(caminho_arquivo):
         focos = [Foco(f"f{i+1}", areas_iniciais[i], alphas[i]) for i in range(n_focos)]
 
         grafo = Grafo()
-        for p in postos:
-            grafo.adicionar_no(p.id)
-        for foco in focos:
-            grafo.adicionar_no(foco.id)
+        
+        # Criar uma lista de todos os IDs dos nós na ordem em que aparecem na matriz de adjacência
+        # Assumimos que os focos vêm primeiro, depois os postos, na ordem f1, f2..., b1, b2...
+        todos_nos_ids = [foco.id for foco in focos] + [posto.id for posto in postos]
 
-        # Linhas restantes: arestas do grafo (origem destino tempo)
-        for linha in f:
-            if linha.strip() == "":
-                continue
-            origem_id, destino_id, tempo = linha.split()
-            grafo.adicionar_aresta(origem_id, destino_id, float(tempo))
+        # Adicionar todos os IDs dos nós ao grafo
+        for no_id in todos_nos_ids:
+            grafo.adicionar_no(no_id)
 
+        # Ler a matriz de adjacência para adicionar as arestas
+        for i in range(len(todos_nos_ids)):
+            linha_distancias = list(map(float, f.readline().split()))
+            for j in range(len(todos_nos_ids)):
+                # Adiciona aresta apenas se houver uma distância positiva
+                # E se não for a distância de um nó para ele mesmo (que deve ser 0 no .in)
+                if linha_distancias[j] > 0:
+                    grafo.adicionar_aresta(todos_nos_ids[i], todos_nos_ids[j], linha_distancias[j])
+            
     return focos, postos, grafo
 
 def entrada_manual():
@@ -64,28 +70,31 @@ def entrada_manual():
     # Aloca os focos de incêndio
     i = 1
     while i <= n_focos:
-        foco = Foco(f'f{i}', areas_iniciais[i-1], alphas[i-1])
+        foco = Foco(f"f{i}", areas_iniciais[i-1], alphas[i-1])
         focos.append(foco)
         i += 1
 
     # Adiciona os nós ao grafo
     focos_e_postos = focos + postos
     for no in focos_e_postos:
-        grafo.adicionar_no(no)
+        grafo.adicionar_no(no.id) # Passar o ID do nó
 
     # Adiciona as arestas com as distâncias (tempos) entre todos os pares
-    for i in focos_e_postos:
-        pares = [f'{i.id}-{j.id}' for j in focos_e_postos]
+    for i_obj in focos_e_postos:
+        pares = [f'{i_obj.id}-{j_obj.id}' for j_obj in focos_e_postos]
         texto_pares = ', '.join(pares)
         print(f'Digite as distâncias (tempo em horas de chegada) entre {texto_pares}, separadas por espaço:')
         
         linha_distancias = list(map(float, input().split()))
-        for n, j in enumerate(focos_e_postos):
-            grafo.adicionar_aresta(i, j, linha_distancias[n])
+        for n, j_obj in enumerate(focos_e_postos):
+            grafo.adicionar_aresta(i_obj.id, j_obj.id, linha_distancias[n]) # Passar os IDs dos nós
     return focos, postos, grafo
 
 
 def main():
+    tempo_disponivel_diario = 12 # Horas
+    num_dias_simulacao = 100 # Um número razoável de dias para a simulação
+
     while True:
         print('Escolha uma das opções abaixo:')
         print('1. Inserir entrada manualmente')
@@ -97,7 +106,7 @@ def main():
             nome_saida = input("Digite o nome do arquivo de saída .out: ").strip()
             caminho_saida = os.path.join("saidas", nome_saida)
             focos, postos, grafo = entrada_manual()
-            resultado = simular_combate(focos, postos, grafo)
+            resultado = simular_combate(focos, postos, grafo, tempo_disponivel_diario, num_dias_simulacao)
 
             with open(caminho_saida, "w") as f_out:
                 f_out.write(resultado)
@@ -109,20 +118,28 @@ def main():
         elif opcao == '2':
             nome_entrada = input("Digite o nome do arquivo .in: ").strip()
             nome_saida = input("Digite o nome do arquivo de saída .out: ").strip()
-            caminho_entrada = os.path.join("entradas", nome_entrada)
+            
+            # Correção: Extrair apenas o nome base do arquivo e juntar com o diretório 'entradas'
+            base_nome_entrada = os.path.basename(nome_entrada)
+            caminho_entrada = os.path.join("entradas", base_nome_entrada) 
             caminho_saida = os.path.join("saidas", nome_saida)
 
+            try:
+                focos, postos, grafo = ler_dados_entrada(caminho_entrada)
+                resultado = simular_combate(focos, postos, grafo, tempo_disponivel_diario, num_dias_simulacao)
+                with open(caminho_saida, "w") as f_out:
+                    f_out.write(resultado)
 
-            focos, postos, grafo = ler_dados_entrada(caminho_entrada)
-            resultado = simular_combate(focos, postos, grafo)
-            with open(caminho_saida, "w") as f_out:
-                f_out.write(resultado)
-
-            
-            print(f"\nSimulação concluída. Resultados salvos em: {caminho_saida}")
+                print(f"\nSimulação concluída. Resultados salvos em: {caminho_saida}")
+            except FileNotFoundError:
+                print(f"Erro: Arquivo de entrada '{caminho_entrada}' não encontrado. Verifique o caminho e tente novamente.")
+            except Exception as e:
+                print(f"Ocorreu um erro ao processar o arquivo de entrada: {e}")
         
         elif opcao == '3':
             break
+        else:
+            print("Opção inválida. Por favor, escolha 1, 2 ou 3.")
 
 
 main()
