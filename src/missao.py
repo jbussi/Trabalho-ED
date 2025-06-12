@@ -7,24 +7,31 @@ class Missao:
         self.posto_id = posto_id
         self.dia = dia
         self.capacidade = capacidade
-        self.alocacoes = {}
+        self.alocacoes = {} # Stores {foco_id: {'foco_obj': Foco, 'tempo': float}}
     
     # Aloca o foco de incêncio a certo posto
-    def adicionar_alocacao(self, foco_id: str, tempo: float):
+    def adicionar_alocacao(self, foco: Foco, tempo: float):
+        foco_id = foco.id
         if foco_id not in self.alocacoes:
-            self.alocacoes[foco_id] = {'tempo': 0, 'recursos': 0}
+            self.alocacoes[foco_id] = {'foco_obj': foco, 'tempo': 0}
         self.alocacoes[foco_id]['tempo'] += tempo
-        self.alocacoes[foco_id]['capacidade'] += self.capacidade
     
     # O posto combate o foco de incêndio alocado
     def executar(self):
+        total_tempo_alocado = sum(dados['tempo'] for dados in self.alocacoes.values())
+        if total_tempo_alocado == 0:
+            return
+
         for foco_id, dados in self.alocacoes.items():
-            foco: Foco = self.alocacoes[foco_id]
-            foco.sofrer_combate(
+            foco_obj: Foco = dados['foco_obj']
+            tempo_alocado_foco = dados['tempo']
+            recursos_alocados_foco = (tempo_alocado_foco / total_tempo_alocado) * self.capacidade
+
+            foco_obj.sofrer_combate(
                 dia = self.dia,
                 posto_id = self.posto_id,
-                tempo = dados['tempo'],
-                recursos = dados['recursos']
+                tempo = tempo_alocado_foco,
+                recursos = recursos_alocados_foco
             )
     
     #Contabiliza o tempo total gasto, para não exceder as 12 horas disponíveis por dia
@@ -34,7 +41,7 @@ class Missao:
 
         for foco_id, dados in self.alocacoes.items():
             # Deslocamento do local atual até o próximo foco
-            tempo_deslocamento = grafo.adjacencias[local_atual][foco_id]
+            tempo_deslocamento = grafo.custo(local_atual, foco_id)
 
             # Tempo de combate
             tempo_combate = dados['tempo']
