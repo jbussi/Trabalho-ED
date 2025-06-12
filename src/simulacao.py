@@ -1,22 +1,25 @@
 import math
-from foco import Foco
-from posto import Posto
-from score import Score
-from grafo import Grafo
-from missao import Missao 
+from .foco import Foco
+from .posto import Posto
+from .score import Score
+from .grafo import Grafo
+from .missao import Missao 
 
 def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_disponivel_diario: int, num_dias: int):
     score_calculator = Score(total_postos=len(postos))
+
+    # Usaremos uma lista para acumular as linhas do relatório
+    relatorio_linhas = []
 
     # Dicionário para armazenar o dia de extinção de cada foco
     focos_extintos_data = {}
 
     for dia in range(1, num_dias + 1):
-        print(f"\n--- Dia {dia} ---")
+        relatorio_linhas.append(f"\n--- Dia {dia} ---")
         focos_ativos = [f for f in focos if not f.extinto]
 
         if not focos_ativos:
-            print("Todos os focos foram extintos. Simulação encerrada.")
+            relatorio_linhas.append("Todos os focos foram extintos. Simulação encerrada.")
             break
 
         # Resetar horas e capacidade disponíveis dos postos para o dia
@@ -89,7 +92,7 @@ def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_
             # Adicionar esta alocação à missão do posto
             missoes_do_dia[posto_alocado.id].adicionar_alocacao(foco_alocado, tempo_combate_alocado)
             
-            print(f"Dia {dia}: Posto {posto_alocado.id} alocado ao Foco {foco_alocado.id} por {tempo_combate_alocado:.2f}h (dist: {distancia_alocada:.2f}h).")
+            relatorio_linhas.append(f"Dia {dia}: Posto {posto_alocado.id} alocado ao Foco {foco_alocado.id} por {tempo_combate_alocado:.2f}h (dist: {distancia_alocada:.2f}h).")
             
             # Atualizar focos_ativos se um foco foi extinto por alocações anteriores no mesmo dia (improvável, mas para segurança)
             # Ou, mais importante, se um foco foi extinto em dias anteriores e ainda está na lista.
@@ -109,33 +112,35 @@ def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_
                     foco.extinto = True
                     foco.data_extincao = dia
                     focos_extintos_data[foco.id] = dia
-                    print(f"Foco {foco.id} extinto no Dia {dia}!")
+                    relatorio_linhas.append(f"Foco {foco.id} extinto no Dia {dia}!")
                 else:
-                    print(f"Foco {foco.id} cresceu para {foco.area:.2f} km²")
+                    relatorio_linhas.append(f"Foco {foco.id} cresceu para {foco.area:.2f} km²")
 
         # Relatório diário
-        print("\nEstado dos Focos ao final do dia:")
+        relatorio_linhas.append("\nEstado dos Focos ao final do dia:")
         for foco in focos:
             status = "Extinto" if foco.extinto else f"{foco.area:.2f} km²"
-            print(f"Foco {foco.id}: {status}")
+            relatorio_linhas.append(f"Foco {foco.id}: {status}")
 
     # Relatório final após a simulação
-    print("\n--- Relatório Final ---")
+    relatorio_linhas.append("\n--- Relatório Final ---")
     todos_extintos = True
     tempo_total_simulacao = 0
 
     for foco in focos:
         if foco.extinto:
-            print(f"Foco {foco.id} extinto no Dia {foco.data_extincao}.")
+            relatorio_linhas.append(f"Foco {foco.id} extinto no Dia {foco.data_extincao}.")
             if foco.data_extincao > tempo_total_simulacao:
                 tempo_total_simulacao = foco.data_extincao
         else:
             todos_extintos = False
-            print(f"Foco {foco.id} NÃO extinto. Área restante: {foco.area:.2f} km².")
+            relatorio_linhas.append(f"Foco {foco.id} NÃO extinto. Área restante: {foco.area:.2f} km².")
     
     if todos_extintos:
-        print(f"Todos os focos foram extintos em {tempo_total_simulacao} dias.")
+        relatorio_linhas.append(f"Todos os focos foram extintos em {tempo_total_simulacao} dias.")
     else:
-        print("Não foi possível extinguir todos os focos com os recursos disponíveis.")
+        relatorio_linhas.append("Não foi possível extinguir todos os focos com os recursos disponíveis.")
+
+    return '\n'.join(relatorio_linhas)
 
 
