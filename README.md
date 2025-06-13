@@ -20,7 +20,7 @@ O objetivo do projeto é determinar uma estratégia viável para extinguir todos
 
 - **Python 3** — Linguagem de programação principal.
 - **math** — Biblioteca padrão do Python, utilizada principalmente para cálculos logarítmicos.
-
+- **heapq** — Biblioteca padrão do Python, para cálculo de menor distância entre dois pontos.
 ---
 
 ## 📁 Estrutura do Projeto
@@ -55,7 +55,40 @@ A implementação segue uma estrutura modular, com cada componente funcional sep
 ## ✅ Como Executar
 
 1. Certifique-se de ter o Python 3 instalado.
-2. Execute o `main.py` com um arquivo de entrada no formato especificado:
+2. Execute o arquivo `main.py`.
+3. Escolha entre inserir os dados de entrada manualmente ou via arquivo (`.in`)
+4. Insira o arquivo `.in` dentro da pasta \entradas e insira o nome do arquivo (caso escolher a entrada via arquivo `.in`)
+5. Escolha o nome do arquivo .out (ele será gerado na pasta \saidas)
+6. Execute o programa novamente ou saia escolhendo a opção sair
+
+## 📄 Formato do Arquivo `.in`
+
+O arquivo `.in` contém os dados de entrada utilizados pelo programa. Ele deve seguir o seguinte formato:
+
+Linha 1: número de focos de incêndio (F) e número de postos de brigadistas (B)
+Linha 2: capacidade de combate ao fogo de cada posto brigadista por hora (B valores)
+Linha 3: área inicial de cada foco de incêndio (F valores)
+Linha 4: fator de crescimento diário de cada foco de incêndio (F valores)
+Linhas seguintes: matriz de distâncias entre os nós do grafo (F + B linhas, com F + B valores cada)
+
+> ℹ️ A matriz de distâncias representa as conexões entre focos e postos. As F primeiras linhas/colunas correspondem aos focos, e as B últimas, aos postos.
+
+#### 🧾 Exemplo de entrada `.in`:
+
+```in
+4 3
+10 15 12
+100 80 120 90
+1.1 1.2 1.05 1.3
+0 5 7 9 10 12 15
+5 0 6 8 11 14 17
+7 6 0 4 13 16 19
+9 8 4 0 14 18 20
+10 11 13 14 0 3 5
+12 14 16 18 3 0 4
+15 17 19 20 5 4 0
+```
+
    
 ## Participantes:
 - Antonio Augusto dos Santos Daneze    n° USP: 14558993
