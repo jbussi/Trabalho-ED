@@ -5,6 +5,7 @@ from .score import Score
 from .grafo import Grafo
 from .missao import Missao 
 
+# Método que simula o combate aos focos de incêndio, alocando os postos de bombeiros
 def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_disponivel_diario: int, num_dias: int):
     score_calculator = Score(total_postos=len(postos))
 
@@ -14,6 +15,7 @@ def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_
     # Dicionário para armazenar o dia de extinção de cada foco
     focos_extintos_data = {}
 
+    # Simulamos um dia de cada vez, parando se chegarmos no dia 100 ou extinguirmos todos os focos
     for dia in range(1, num_dias + 1):
         relatorio_linhas.append(f"\n--- Dia {dia} ---")
         focos_ativos = [f for f in focos if not f.extinto]
@@ -78,6 +80,7 @@ def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_
                         tempo_disponivel=tempo_disponivel_para_combate # Tempo que o posto pode dedicar a este foco
                     )
 
+                    # Atualiza o a missão se encontrarmos um score melhor
                     if current_score > maior_score_global:
                         maior_score_global = current_score
                         melhor_alocacao = (current_score, posto, foco, distancia_deslocamento, tempo_combate_sugerido)

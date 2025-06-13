@@ -13,6 +13,7 @@ O objetivo do projeto é determinar uma estratégia viável para extinguir todos
 ## 🔧 Tecnologias Utilizadas
 
 - **Python 3**: Linguagem de programação utilizada para implementar a solução.
+- **math**: Biblioteca de python que possui operações matemáticas comuns (no nosso caso o logaritmo)
 
 ## 📁 Estrutura do Projeto
 

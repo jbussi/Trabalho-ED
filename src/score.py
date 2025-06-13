@@ -1,5 +1,6 @@
 import math
 
+# Calcula a prioridade de combate dos focos de incêndio, ajudando na alocação de focos para os postos
 class Score:
     def __init__(self, total_postos, efetividade_minima=1.0, beta=1.0):
         self.total_postos = total_postos

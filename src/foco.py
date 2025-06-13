@@ -25,6 +25,7 @@ class Foco:
         # O combate em si, reduzindo a área do foco de acordo com a capacidadade da brigada enviada (recursos)
         self.area = max(0, self.area - tempo * recursos)
 
+        # Caso o foco for extinto (área = 0), muda seu estado e guarda a data de extinção
         if self.area == 0 and not self.extinto:
             self.extinto = True
             self.data_extincao = dia
