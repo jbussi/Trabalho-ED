@@ -3,7 +3,9 @@ from src.foco import Foco
 from src.posto import Posto
 from src.simulacao import simular_combate
 import os
+## Esse é o arquivo principal, o qual vai receber todos os dados de entrada e executar a simulação do incêndio ##
 
+# Função para ler os dados de entrada de um arquivo .in
 def ler_dados_entrada(caminho_arquivo):
     with open(caminho_arquivo, 'r') as f:
         # Linha 1: n_focos n_postos
@@ -41,6 +43,7 @@ def ler_dados_entrada(caminho_arquivo):
             
     return focos, postos, grafo
 
+# Função para ler os dados de entrada de um usuário manualmente
 def entrada_manual():
     grafo = Grafo()  # Cria o grafo que representará conexões entre focos e postos
     postos = [] # Lista de nossos postos de bombeiros

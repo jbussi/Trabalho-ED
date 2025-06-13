@@ -15,7 +15,7 @@ def simular_combate(focos: list[Foco], postos: list[Posto], grafo: Grafo, tempo_
     # Dicionário para armazenar o dia de extinção de cada foco
     focos_extintos_data = {}
 
-    # Simulamos um dia de cada vez, parando se chegarmos no dia 100 ou extinguirmos todos os focos
+    # Simulamos um dia de cada vez, parando se chegarmos no dia máximo ou extinguirmos todos os focos
     for dia in range(1, num_dias + 1):
         relatorio_linhas.append(f"\n--- Dia {dia} ---")
         focos_ativos = [f for f in focos if not f.extinto]
