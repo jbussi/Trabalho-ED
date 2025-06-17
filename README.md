@@ -51,6 +51,28 @@ A implementação segue uma estrutura modular, com cada componente funcional sep
   Ponto de entrada do programa. Realiza a leitura dos dados de entrada (.in) e inicia a simulação.
 
 ---
+## 📦 Sobre a Biblioteca do Projeto
+
+Para facilitar o desenvolvimento, distribuição e reutilização, o projeto está organizado como uma biblioteca Python instalável, com a pasta `src` contendo todo o código-fonte.
+
+### O que isso significa?
+
+- **Modularidade e Organização:** Todo código está dentro do diretório `src`, o que ajuda a manter o projeto organizado e claro, especialmente para projetos maiores.
+
+- **Pacote Instalável:** Com o arquivo `pyproject.toml` configurado, o projeto pode ser instalado localmente usando ferramentas como `pip install -e .` ou até mesmo distribuído para repositórios públicos (ex: PyPI).
+
+- **Gerenciamento de Dependências:** O arquivo `pyproject.toml` define quais pacotes externos seu projeto precisa, além de informações essenciais como nome, versão, autores, etc.
+
+- **Importação Simples:** Depois de instalado, você pode importar seus módulos em outros projetos ou scripts simplesmente usando `from src import grafo` ou similar, sem precisar se preocupar com o caminho relativo.
+
+### Sobre o arquivo `pyproject.toml`
+
+Este arquivo é um padrão moderno para configuração de projetos Python, que substitui (ou complementa) arquivos antigos como `setup.py` e `setup.cfg`. Ele contém:
+
+- **Metadados do projeto:** Nome, versão, descrição, autores, versão mínima do Python, etc.
+- **Dependências:** Pacotes externos que seu projeto necessita (deixando claro para quem instalar o pacote o que precisa ser instalado).
+- **Configuração do sistema de build:** Define que o projeto usa `setuptools` e `wheel` para construir o pacote.
+- **Pacotes incluídos:** Aqui, configuramos para incluir todo código dentro da pasta `src`.
 
 ## ✅ Como Executar
 

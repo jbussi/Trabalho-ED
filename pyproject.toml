@@ -1,0 +1,21 @@
+[project]
+name = "AlocacaoBrigadistas"
+version = "1.0.0"
+description = "Simulação de combate a incêndios com alocação de brigadistas"
+authors = [
+  { name = "João Paulo Bussi", email = "joao.paulo.bussi1@gmail.com" },
+  { name = "Antonio Augusto dos Santos Daneze"},
+  { name = "André dos Santos Porta"},
+  { name = "Diego Deliberalli Reis"},
+  { name = "Patrick Neme Mesquita"}
+]
+readme = "README.md"
+requires-python = ">=3.12.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]

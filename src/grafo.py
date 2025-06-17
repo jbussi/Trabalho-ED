@@ -1,4 +1,5 @@
 import heapq
+from .erros import ParametroInvalido
 class Grafo:
     def __init__(self):
         self.nos = {}
@@ -13,6 +14,8 @@ class Grafo:
         self.adicionar_no(destino_id)
         self.nos[origem_id][destino_id] = tempo
         self.nos[destino_id][origem_id] = tempo # Grafo não direcionado
+        if tempo < 0:
+            raise ParametroInvalido("Distâncias em tempo de deslocamento devem ser números decimais positivos.")
     
     def custo(self, origem_id: str, destino_id: str):
         # Verifica se os nós existem no grafo
