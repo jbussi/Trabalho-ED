@@ -3,11 +3,11 @@ name = "AlocacaoBrigadistas"
 version = "1.0.0"
 description = "Simulação de combate a incêndios com alocação de brigadistas"
 authors = [
-  { name = "João Paulo Bussi", email = "joao.paulo.bussi1@gmail.com" },
-  { name = "Antonio Augusto dos Santos Daneze"},
-  { name = "André dos Santos Porta"},
-  { name = "Diego Deliberalli Reis"},
-  { name = "Patrick Neme Mesquita"}
+  { name = "João Paulo Bussi", email = "joao.paulo.bussi1@gmail.com", github = "@jbussi"},
+  { name = "Antonio Augusto dos Santos Daneze, email = "antonioadaneze@usp.br, github = "@AntonioASD"},
+  { name = "André dos Santos Porta", github = "@andre171205"},
+  { name = "Diego Deliberalli Reis", github = "@DiegoReis2210"},
+  { name = "Patrick Neme Mesquita", github = "@Patrovskihere"}
 ]
 readme = "README.md"
 requires-python = ">=3.12.10"
